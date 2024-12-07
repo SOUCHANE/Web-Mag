@@ -1,0 +1,94 @@
+{
+    "mag": {
+      "nomMag": "Santé & Bien-être",
+      "phraseAccroche": "Votre guide pour une vie saine et équilibrée",
+      "texteAppelAction": "S'abonner",
+      "mainPrincipal": {
+        "titre": "Médecine préventive : Les avancées qui transforment notre santé",
+        "description": "Découvrez comment les nouvelles technologies et la recherche révolutionnent les soins préventifs.",
+        "date": "1er Décembre 2024",
+        "theme": "Avancées médicales",
+        "image": "https://img.freepik.com/photos-premium/icone-tete-consciente_110893-309.jpg?w=1380"
+      },
+      "articles": [
+        {
+          "titre": "5 aliments pour renforcer votre système immunitaire cet hiver",
+          "date": "28 Novembre 2024",
+          "theme": "Conseils santé",
+          "description": "Boostez vos défenses naturelles avec ces super-aliments indispensables pour rester en forme durant la saison froide. Découvrez leurs bienfaits en détail !",
+          "image": "https://img.freepik.com/photos-gratuite/legumes-fruits-delicieux-plat_23-2149235864.jpg?t=st=1733400465~exp=1733404065~hmac=1a48bfc373f1bba63d199ebdf5c45adab6e9c3c807fc0d897533f225c9982e6a&w=900"
+        },
+        {
+          "titre": "Les bienfaits de la méditation sur la santé mentale",
+          "date": "20 Novembre 2024",
+          "theme": "Bien-être",
+          "description":"Réduction du stress, amélioration de la concentration et bien-être général : découvrez comment la méditation peut transformer votre santé mentale au quotidien.",
+          "image": "https://img.freepik.com/photos-gratuite/close-up-kid-meditant-tapis_23-2149101612.jpg?t=st=1733400505~exp=1733404105~hmac=8ecf5b2e5406301f68a48b320cb459c8deb8555ccd6641195a9ab36e9da187c6&w=900"
+        },
+        {
+          "titre": "Thérapies numériques : Une nouvelle ère pour les soins psychologiques",
+          "date": "15 Novembre 2024",
+          "theme": "Tendances",
+          "description":"Les outils numériques redéfinissent l'accès et l'approche des soins en santé mentale. Découvrez comment ces innovations transforment les thérapies psychologiques pour un accompagnement plus accessible et personnalisé.",
+          "image": "https://img.freepik.com/photos-gratuite/consulter-actualites-internet_329181-11527.jpg?t=st=1733400553~exp=1733404153~hmac=a4a23b333ad2ac77339dab071340a4e09efbbdb7f65ee770060cd4ca14e61e2c&w=900"
+        },
+        {
+          "titre": "L'impact des technologies portables sur la gestion de la santé",
+          "date": "10 Novembre 2024",
+          "theme": "Avancées médicales",
+          "description":"Les montres connectées et autres dispositifs portables révolutionnent notre approche de la santé. Suivi en temps réel, prévention et personnalisation des soins : découvrez comment ces technologies transforment notre quotidien.",
+                "image": "https://img.freepik.com/photos-gratuite/banniere-medicale-medecin-portant-equipement_23-2149611201.jpg?t=st=1733400581~exp=1733404181~hmac=8b6c9788c680f9e970e0c250b04b22c8c432ec5bb27772c47a9e1f84699d1347&w=900"
+        },
+        {
+          "titre": "Yoga, Pilates ou CrossFit : Quel est le meilleur pour votre corps ?",
+          "date": "5 Novembre 2024",
+          "theme": "Bien-être",
+          "description":"Que vous cherchiez à gagner en souplesse, renforcer vos muscles en douceur ou vous dépasser physiquement, chaque pratique offre des avantages uniques. Découvrez laquelle correspond le mieux à vos besoins.",
+          "image": "https://img.freepik.com/photos-gratuite/gens-classe-reformateur-pilates-exercant-leur-corps_23-2150858028.jpg?t=st=1733400610~exp=1733404210~hmac=b7a8ff4e7c49e4e279fc83a171560f070b4eb4066ad56a1f3ee8f3a89396fc3f&w=900"
+        }
+      ],
+      "themes": [
+        {
+          "nom": "Avancées médicales",
+          "description": "Les dernières découvertes et innovations dans le domaine de la santé."
+        },
+        {
+          "nom": "Conseils santé",
+          "description": "Des recommandations pratiques pour améliorer votre quotidien."
+        },
+        {
+          "nom": "Bien-être",
+          "description": "Les pratiques et habitudes pour équilibrer corps et esprit."
+        },
+        {
+          "nom": "Tendances",
+          "description": "Les nouvelles approches et idées en matière de santé et bien-être."
+        },
+        {
+          "nom": "Technologies",
+          "description": "Les outils numériques et innovations qui transforment les soins de santé."
+        }
+      ],
+      "auteurs": [
+        {
+          "prenom": "Claire",
+          "typeExperience": "Médecin généraliste",
+          "presentation": "Je partage des conseils pratiques basés sur les dernières avancées scientifiques pour une meilleure santé au quotidien.",
+          "image": "https://img.freepik.com/photos-gratuite/portrait-medecin_144627-39391.jpg?t=st=1733400790~exp=1733404390~hmac=4b246cdf414eeca9a16aecafefedd29d92e9c6cbb971ece9da20e92526d0090b&w=900"
+        },
+        {
+          "prenom": "Marc",
+          "typeExperience": "Coach en bien-être",
+          "presentation": "Spécialisé dans les approches holistiques, je propose des solutions adaptées pour améliorer votre qualité de vie.",
+          "image": "https://img.freepik.com/photos-gratuite/jeune-homme-sport-heureuse-expression_1194-1587.jpg?t=st=1733400841~exp=1733404441~hmac=724b73ac75cc136547ba0d9d61ddd7801f1668fd6c1a6af2629ac18e358e81c0&w=826"
+        },
+        {
+          "prenom": "Sophie",
+          "typeExperience": "Journaliste santé",
+          "presentation": "Avec une expertise dans le domaine médical, je mets en lumière les innovations et tendances santé.",
+          "image": "https://img.freepik.com/photos-gratuite/journaliste-vue-face-prenant-interview_23-2149032425.jpg?t=st=1733400894~exp=1733404494~hmac=a3cf69815cc0699443255d028d4671c6ba17c2e9591932acf2a20321a0daf23e&w=900"
+        }
+      ]
+    }
+  }
+  
