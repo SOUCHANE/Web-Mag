@@ -5,9 +5,9 @@ fetch('data.json')
 
         // Header
         document.getElementById('logo').textContent = mag.nomMag;
-        const navMenu = document.getElementById('nav-menu');
+        let navMenu = document.getElementById('nav-menu');
         mag.themes.forEach(theme => {
-            const link = document.createElement('a');
+            let link = document.createElement('a');
             link.href = '#'; 
             link.textContent = theme.nom;
             navMenu.appendChild(link);
@@ -23,7 +23,7 @@ fetch('data.json')
         document.getElementById('phrase-accroche').textContent = mag.phraseAccroche;
 
         // Thèmes et leurs descriptions
-        const themesContainer = document.getElementById('themes-container');
+        let themesContainer = document.getElementById('themes-container');
         mag.themes.forEach(theme => {
             const themeDiv = document.createElement('div');
             themeDiv.className = 'theme';
@@ -35,40 +35,40 @@ fetch('data.json')
         });
 
         // Image principale
-        const heroImage = document.getElementById('hero-image');
+        let heroImage = document.getElementById('hero-image');
         heroImage.src = mag.mainPrincipal.image;
         heroImage.alt = "Image principale";
 
 
 
         // Section "Article Plus Récent"
-        const latestArticle = mag.mainPrincipal;
+        let latestArticle = mag.mainPrincipal;
 
         // Titre de la section
         document.getElementById('latest-article-title').textContent = "Article Plus Récent";
 
-        // Métadonnées (thème et date)
+    
         document.getElementById('latest-article-meta').textContent = `${latestArticle.theme} - ${latestArticle.date}`;
 
         // Description de l'article
         document.getElementById('latest-article-description').textContent = latestArticle.description;
 
         // Bouton "Lire l'article"
-        const articleButton = document.getElementById('latest-article-button');
+        let articleButton = document.getElementById('latest-article-button');
         articleButton.textContent = "Lire l'article";
         articleButton.onclick = () => {
-            // Action au clic, par exemple rediriger vers un lien
+        
             window.open("#", "_blank");
         };
 
 
 
         // Section Articles
-        const articlesContainer = document.getElementById('articles-container');
+        let articlesContainer = document.getElementById('articles-container');
 
-        // Ajouter chaque article
+    
         mag.articles.forEach(article => {
-            const articleDiv = document.createElement('div');
+            let articleDiv = document.createElement('div');
             articleDiv.className = 'article-item';
             
             articleDiv.innerHTML = `
@@ -87,7 +87,7 @@ fetch('data.json')
 
 
         // Team Section
-        const teamContainer = document.getElementById('team-container');
+        let teamContainer = document.getElementById('team-container');
         mag.auteurs.forEach(auteur => {
             const authorDiv = document.createElement('div');
             authorDiv.className = 'team-member';
